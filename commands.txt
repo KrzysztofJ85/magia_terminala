@@ -1,0 +1,44 @@
+  354  mkdir magia_terminala
+  355  cd magia_terminala/
+  356  git init
+  357  touch processes.txt
+  358  ps aux > processes.txt 
+  359  cat processes.txt 
+  360  mv processes.txt copy.txt
+  361  ws --help
+  362  wc --help
+  363  wc -l processes.txt
+  364  ls
+  365  cp copy.txt processes.txt
+  366  wc -l processes.txt 
+  367  echo wc -l processes.txt >>processes.txt 
+  368  cat processes.txt 
+  369  wc -l processes.txt >> processes.txt 
+  370  l
+  371  ls
+  372  cat processes.txt 
+  373  wc -l processes.txt
+  374  wc --help
+  375  wc -l
+  376  wc -l processes.txt
+  377  touch processes.txt
+  378  ps aux > processes.txt 
+  379  cp processes.txt copy.txt 
+  380  ls
+  381  cat copy.txt 
+  382  wc -l processes.txt 
+  383  cat processes.txt | wc -l
+  384  cat processes.txt | wc -l >> processes.txt 
+  385  cat processes.txt 
+  386  grep processes.txt 
+  387  grep
+  388  grep --help
+  389  grep -n /bin processes.txt 
+  390  grep -n '/bin' processes.txt 
+  391  cat processes.txt 
+  392  grep -n /init processes.txt 
+  393  history
+  394* tail --he~
+  395  history | tail -n39
+  396  history | tail -n43
+  397  history | tail -n44 > commands.txt
